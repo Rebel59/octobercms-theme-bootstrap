@@ -14,7 +14,9 @@ This will install webpack and laravel mix. These will handle all file bundling,
 autoprefixing and minification.
 
 Inside the `webpack.mix.js` you then define the required variables
+
 `theme` - The (directory) name of your theme.
+
 `url` - The (local) URL that your webapp is located at. Used for the localhost proxy.
 
 ### `npm` commands
