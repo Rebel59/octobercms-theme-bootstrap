@@ -1,0 +1,15 @@
+==
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>{{ this.page.title }} - WebApp</title>
+<meta name="description" content="{{ this.page.description }}">
+<meta name="twitter:card" value="summary">
+<meta property="og:title" content="WebApp - {{ this.page.title }}" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="{{ url(this.page.url) }}" />
+<!-- <meta property="og:image" content="{{ 'xxxxxxx.jpg' | media }}" /> -->
+<meta property="og:description" content="{{ this.page.description }}" /> 
+
+<link rel="stylesheet" href="{{'assets/dist/theme.css'| theme}}">
+{% styles %}
